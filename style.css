@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 26px;
+}
+
+a.banner {
+    display: block;
+    background: white;
+    width: 600px;
+    height: 176px;
+    position: relative;
+    font-family: 'Dancing Script', sans-serif;
+    background-image:
+        url(./main.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, right top;
+    background-size: contain, cover;
+    overflow: hidden;
+    float: left;
+}
+
+
+.icon1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 400px;
+    top: -20px;
+    animation-name: icon1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes icon1 {
+    0% {
+        left: 800px;
+    }
+
+    10% {}
+
+    100% {}
+}
+
+.icon2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 80px;
+    top: 100px;
+    animation-name: icon2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes icon2 {
+    0% {
+        top: 200px;
+    }
+
+    90% {}
+
+    100% {}
+}
+
+.sudText {
+    position: absolute;
+    left: 338px;
+    top: 128px;
+    width: 100px;
+    height: 34px;
+    background: green;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.p1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 300px;
+    top: -100px;
+    animation-name: p1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes p1 {
+    0% {}
+    90% {}
+    100% {
+        top: 13px;
+    }
+}
+
+.p2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 300px;
+    bottom: 33px;
+    animation-name: p2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes p2 {
+    0% {
+        left: 700px;
+    }
+    90% {}
+    100% {}
+}
+
+.p3 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    right: 0px;
+    bottom: 6px;
+    animation-name: p3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes p3 {
+        0% { right: 700px;}
+        90% {}
+        100% {}
+        }
+
+.p4 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 300px;
+    top: 98px;
+    animation-name: p4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* 가속도는 마지막에 추가예정 */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes p4 {
+                0% { top: 200px;}
+                90% {}
+                100% {}
+            }
